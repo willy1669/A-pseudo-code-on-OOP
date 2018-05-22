@@ -1,0 +1,47 @@
+Interface Intern {  //an interface class
+      void names ();
+      void be_graduate ();
+      void register ();
+      void interview ();
+      void pass ();
+      void offer_letter ();
+}
+
+abstract class genesys implements Intern { //this is an abstract class that inherits from the interface class. it is abstract because it contains two abstract methods
+   public void names (string name){
+        print ("you are eligible to register");
+}
+      public void be_undergraduate (){
+        print ("you are eligible to register ");
+}  
+      public void register (){
+        print ("Application not successful");
+}
+      public void register (string status){
+        print ("Application successful");
+}
+      public void interview (){
+        print ("Welcome to the our company");
+}
+      abstract void pass(); //abstract method
+      abstract void offer_letter ():
+}
+
+class learnable extends genesys { 
+      public void pass(interview){
+        This.interview
+       print ("You successfully passed your interview");
+}
+      public void offer_letter (){
+       print ("you have been offered an employment");
+}
+    public statice void main (string[] args){
+       names bo = new names (); // this supports polymorphism.
+       bo.names ();
+       bo.names ("nonso")
+      
+      register bc = new register ();
+      bc.register ();
+      bc.register ("welcome");
+}
+      
